@@ -54,6 +54,16 @@
         </itemInstances>
         <itemInstances>
             <componentInstance>
+                <componentInstanceProperties>
+                    <name>context</name>
+                    <value>BOOKMARKS</value>
+                </componentInstanceProperties>
+                <componentName>forceChatter:exposedFeed</componentName>
+                <identifier>forceChatter_exposedFeed</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentName>home:recentRecordContainer</componentName>
                 <identifier>home_recentRecordContainer</identifier>
             </componentInstance>
