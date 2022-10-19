@@ -7,6 +7,20 @@
 				columns={columns}
 				hide-checkbox-column>
 			</lightning-datatable>
+			<div class="button-wrapper">
+				<lightning-button
+					variant="brand"
+					label="Save"
+					title="Save"
+					onclick={handleSaveClick}
+					class="slds-m-around_medium"></lightning-button>
+				<lightning-button
+					variant="brand"
+					label="Clear"
+					title="Clear"
+					onclick={handleClearClick}
+					class="slds-m-around_medium"></lightning-button>
+			</div>
 			<lightning-button
 				variant="brand"
 				label="Refresh"
