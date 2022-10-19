@@ -48,6 +48,12 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>home:assistant</componentName>
+                <identifier>home_assistant</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentInstanceProperties>
                     <name>context</name>
                     <value>BOOKMARKS</value>
